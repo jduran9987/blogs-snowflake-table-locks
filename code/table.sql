@@ -11,6 +11,6 @@ CREATE OR REPLACE TABLE table_locks (
 
 INSERT INTO table_locks
 VALUES
-    (1, 'hello', 2023-01-01),
-    (2, 'hi', 2023-01-02),
-    (3, 'hola', 2023-01-03);
+    (1, 'hello', '2023-01-01'),
+    (2, 'hi', '2023-01-02'),
+    (3, 'hola', '2023-01-03');
