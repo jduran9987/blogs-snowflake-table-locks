@@ -160,4 +160,6 @@ COMMIT; -- 12
 The results are similar to those in the previous example. The modifed row is not visible to the second session's read statements until the first session commits. Also like the previous example, the lock is acquired on the new partition created for the modified row. The second session does not see this new uncommitted partition, but can still read from the old partition containing the original record with value `msg = 'hola'`. 
 
 
-## 
+## Insert vs Insert
+
+
