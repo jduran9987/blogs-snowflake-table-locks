@@ -1,8 +1,8 @@
 -- worksheet 1
 BEGIN TRANSACTION; -- 1
 SHOW TRANSACTIONS; -- 2
-INSERT INTO table_locks -- 6
-VALUES (4, 'howdy', '2023-01-04');
+INSERT INTO table_locks
+VALUES (4, 'howdy', '2023-01-04'); -- 6
 SHOW LOCKS; -- 7
 COMMIT; -- 10
 
